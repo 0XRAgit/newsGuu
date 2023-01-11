@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1892074172",
+    "project_id": "artmarket-f94bb",
+    "storage_bucket": "artmarket-f94bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1892074172:android:4561edcb5fff68afb286b9",
+        "android_client_info": {
+          "package_name": "ru.wnfx.artmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1892074172-hkbdefkqd83p5fd711mpk8skk4unte65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Rw3D13R8_qp0rbIjoeQeSJ5CDrkElaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1892074172-hkbdefkqd83p5fd711mpk8skk4unte65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
