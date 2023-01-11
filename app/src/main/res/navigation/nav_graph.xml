@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/testFragment"
-        android:name="ru.wnfx.guuNews."
+        android:name="ru.d1r0x.newsGuu.ui.test.TestFragment"
         android:label="TestFragment" />
 
 
