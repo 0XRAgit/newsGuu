@@ -2,4 +2,27 @@
 
     <string name="app_name">NewsGuu</string>
 
+
+    <!-- News Item -->
+    <string name="news_item_readAll">Читать далее</string>
+    <string name="news_item_author">Автор: $name</string>
+    <string name="news_item_resource">Ресурс: $name</string>
+    <!-- News Item -->
+
+    <!-- Main Fragmetn -->
+    <string name="main_fragment_hint">tesla</string>
+    <!-- Main Fragmetn -->
+
+    <!-- Filter Dialog -->
+    <string name="filter_dialog_language_title">Язык новостей:</string>
+    <string name="filter_dialog_language_english">Английский</string>
+    <string name="filter_dialog_language_russian">Русский</string>
+    <string name="filter_dialog_sort_by_title">Сортировка по:</string>
+    <string name="filter_dialog_sort_by_popularity">Популярности</string>
+    <string name="filter_dialog_sort_by_publishedAt">Времени публикации</string>
+    <!-- Filter Dialog -->
+
+    <!-- For Toast -->
+    <string name="for_toast_no_result">Нет результатов по данным параметрам</string>
+    <!-- For Toast -->
 </resources>

@@ -5,6 +5,7 @@ import javax.inject.Singleton;
 import dagger.Component;
 import ru.d1r0x.newsGuu.di.modules.NetworkModule;
 import ru.d1r0x.newsGuu.di.modules.RepositoryModule;
+import ru.d1r0x.newsGuu.ui.main.MainFragment;
 import ru.d1r0x.newsGuu.ui.test.TestFragment;
 
 @Singleton
@@ -12,4 +13,6 @@ import ru.d1r0x.newsGuu.ui.test.TestFragment;
 public interface AppComponent {
 
     void inject(TestFragment testFragment);
+
+    void inject(MainFragment mainFragment);
 }

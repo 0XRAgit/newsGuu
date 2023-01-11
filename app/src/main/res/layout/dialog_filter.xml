@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="32dp">
+
+    <TextView
+        android:id="@+id/textLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/filter_dialog_language_title"
+        android:textAppearance="@style/TitleDialog" />
+
+    <RadioGroup
+        android:id="@+id/groupLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp">
+
+        <RadioButton
+            android:id="@+id/radioEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@style/DescriptionDialog"
+            android:text="@string/filter_dialog_language_english"/>
+
+        <RadioButton
+            android:id="@+id/radioRussian"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@style/DescriptionDialog"
+            android:text="@string/filter_dialog_language_russian"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textSortBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/filter_dialog_sort_by_title"
+        android:textAppearance="@style/TitleDialog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/groupSortBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp">
+
+        <RadioButton
+            android:id="@+id/radioPopularity"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@style/DescriptionDialog"
+            android:text="@string/filter_dialog_sort_by_popularity"/>
+
+        <RadioButton
+            android:id="@+id/radioPublishedAt"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@style/DescriptionDialog"
+            android:text="@string/filter_dialog_sort_by_publishedAt"/>
+    </RadioGroup>
+</LinearLayout>
